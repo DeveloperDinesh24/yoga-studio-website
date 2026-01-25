@@ -5,7 +5,7 @@ import HeroSection from './components/HeroSection'
 function App() {
   return (
     <div className='w-full bg-[#4D4B36]'>
-      <div className='w-full max-w-600 mx-auto bg-transparent'>
+      <div className='w-full max-w-600 mx-auto min-h-[450dvh] bg-transparent'>
         <Header />
         <HeroSection />
       </div>

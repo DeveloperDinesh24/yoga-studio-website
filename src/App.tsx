@@ -3,6 +3,7 @@ import AboutSection from './components/AboutSection'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import ProgramsSection from './components/ProgramsSection'
+import WhyChooseUs from './components/WhyChooseUs'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <HeroSection />
         <AboutSection />
         <ProgramsSection />
+        <WhyChooseUs />
       </div>
     </div>
   )

@@ -10,10 +10,10 @@ export default function Header() {
             <li className='cursor-pointer section-links'>Home</li>
           </a>
           <a href='#about'>
-            <li className='section-links'>Classes</li>
-          </a>
-          <a href='#about'>
             <li className='section-links'>About</li>
+          </a>
+          <a href='#programs'>
+            <li className='section-links'>Programs</li>
           </a>
           <a href='#contact'>
             <li className='section-links'>Contact</li>

@@ -1,5 +1,21 @@
 @import 'tailwindcss';
 
+.section-links {
+  width: fit-content;
+  position: relative;
+}
 
+.section-links::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
 
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: all 300ms;
+}
 
+.section-links:hover::before {
+  width: 100%;
+}

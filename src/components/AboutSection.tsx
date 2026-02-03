@@ -6,15 +6,14 @@ export default function About() {
     >
       <div className='max-w-6xl mx-auto'>
         <div className='flex flex-col lg:flex-row items-center gap-16'>
-          <div className='w-full lg:w-1/2 relative'>
-            <div className='absolute -top-6 -left-6 w-64 h-64 bg-emerald-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse'></div>
+          <div className='max-[640px]:w-3/4 w-1/2 relative'>
 
             <div className='relative rounded-2xl overflow-hidden shadow-2xl transform -rotate-2 hover:rotate-0 transition-transform duration-500'>
-              <div className='bg-stone-300 aspect-[4/5] flex items-center justify-center text-stone-500 italic'>
+              <div className='bg-stone-300 aspect-4/5 flex items-center justify-center text-stone-500 italic'>
                 <img src='../src/assets/about-us.png' alt='About Us' />
               </div>
             </div>
-            <div className='absolute -bottom-10 -right-6 bg-white p-6 rounded-2xl shadow-xl hidden md:block border border-stone-100'>
+            <div className=' max-[840px]:scale-75 absolute -bottom-10 max-[840px]:-right-12 -right-6 bg-white p-6 rounded-2xl shadow-xl border border-stone-100'>
               <p className='text-emerald-800 font-serif text-3xl font-bold'>
                 12+
               </p>

@@ -15,6 +15,9 @@ export default function Header() {
           <a href='#programs'>
             <li className='section-links'>Programs</li>
           </a>
+          <a href='#why-choose-us'>
+            <li className='section-links'>Why Choose Us?</li>
+          </a>
           <a href='#contact'>
             <li className='section-links'>Contact</li>
           </a>

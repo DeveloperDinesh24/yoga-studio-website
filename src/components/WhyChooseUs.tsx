@@ -30,7 +30,7 @@ export default function WhyChooseUs() {
               <span className='italic text-emerald-700'>Woodland Path</span>.
             </p>
           </div>
-          <div className='hidden md:block h-[1px] flex-grow mx-8 bg-stone-300 mb-4'></div>
+          <div className='hidden md:block h-px grow mx-8 bg-stone-300 mb-4'></div>
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-12'>

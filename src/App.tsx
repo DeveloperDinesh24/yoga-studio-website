@@ -8,15 +8,13 @@ import WhyChooseUs from './components/WhyChooseUs'
 
 function App() {
   return (
-    <div className='w-full text-[#F3F1C4]'>
-      <div className='w-full max-w-600 mx-auto bg-transparent'>
-        <Header />
-        <HeroSection />
-        <AboutSection />
-        <ProgramsSection />
-        <WhyChooseUs />
-        <Contact />
-      </div>
+    <div className='w-full max-w-600 mx-auto bg-transparent text-[#F3F1C4]'>
+      <Header />
+      <HeroSection />
+      <AboutSection />
+      <ProgramsSection />
+      <WhyChooseUs />
+      <Contact />
     </div>
   )
 }

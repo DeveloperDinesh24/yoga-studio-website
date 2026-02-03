@@ -2,7 +2,7 @@ export default function HeroSection() {
   return (
     <section
       id='hero'
-      className='w-full h-[96dvh] bg-[url(../assets/hero-section-background.jpg)] bg-cover bg-center bg-no-repeat relative'
+      className='w-full h-[96dvh] bg-[url(../src/assets/hero-section-background.jpg)] bg-cover bg-center bg-no-repeat relative'
     >
       <div className='w-full h-full bg-[#00000055] flex flex-col items-center justify-center'>
         <h1 className='text-4xl sm:text-6xl xl:text-8xl font-semibold text-center mb-2'>
